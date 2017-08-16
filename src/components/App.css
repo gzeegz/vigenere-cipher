@@ -1,0 +1,57 @@
+.vig-container {
+  margin: 20px;
+}
+
+.vig-container h1 {
+  color: #858585;
+  text-decoration: underline;
+  margin: 12px 0;
+}
+
+.vig-container h2 {
+  margin: 2px 0;
+}
+
+.vig-container table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.vig-container th {
+  font-weight: normal;
+}
+
+.vig-container th, td {
+  min-width: 30px;
+  height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.vig-container th div {
+  border: 1px solid #858585;
+  border-radius: 3px;
+  height: calc(100% - 4px);
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vig-container th div:hover {
+  background-color: #7cbbff;
+  cursor: pointer;
+}
+
+.vig-container th div:active {
+  background-color: #49a5ff;
+}
+
+.vig-container input {
+  margin: 5px 0 12px 0;
+}
+
+.vig-container button {
+  margin: 0 5px;
+}
